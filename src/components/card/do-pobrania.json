@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_card_do_pobranias",
+  "info": {
+    "displayName": "DoPobrania",
+    "icon": "paperclip"
+  },
+  "options": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Karty": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.main-card"
+    }
+  }
+}

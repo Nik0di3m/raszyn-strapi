@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_card_main_cards",
+  "info": {
+    "displayName": "MainCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Tekst": {
+      "type": "text"
+    },
+    "Ikona": {
+      "type": "enumeration",
+      "enum": [
+        "House",
+        "Phone",
+        "Card",
+        "Math",
+        "Tie",
+        "Weed",
+        "OnlineBank",
+        "AtmCard",
+        "HandWithMoney",
+        "HandWithPhone",
+        "Bank",
+        "Message",
+        "Pdf"
+      ]
+    },
+    "Link": {
+      "type": "string",
+      "regex": "^\\/[/.a-zA-Z0-9-]+$"
+    }
+  }
+}

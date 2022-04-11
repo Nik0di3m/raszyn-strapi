@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Tekst": {
+      "type": "text"
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktualnoscis",
+  "info": {
+    "singularName": "aktualnosci",
+    "pluralName": "aktualnoscis",
+    "displayName": "Aktualności",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Zajawka": {
+      "type": "text"
+    },
+    "Tekst": {
+      "type": "richtext"
+    },
+    "DoPobrania": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.do-pobrania"
+    },
+    "Link": {
+      "type": "string",
+      "regex": "^\\/[/.a-zA-Z0-9-]+$",
+      "unique": true,
+      "required": true,
+      "default": "/link-do-aktualnosci"
+    }
+  }
+}

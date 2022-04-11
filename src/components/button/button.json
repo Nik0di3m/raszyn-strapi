@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CTA": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string",
+      "regex": "^\\/[/.a-zA-Z0-9-]+$",
+      "required": true
+    }
+  }
+}
