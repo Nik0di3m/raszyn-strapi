@@ -27,9 +27,6 @@
       "type": "component",
       "repeatable": true,
       "component": "card.main-card"
-    },
-    "test": {
-      "type": "string"
     }
   }
 }

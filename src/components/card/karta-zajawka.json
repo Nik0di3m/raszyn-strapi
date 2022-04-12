@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_card_karta_zajawkas",
+  "info": {
+    "displayName": "Karta Zajawka",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "Zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Tytul": {
+      "type": "string"
+    },
+    "Zajawka": {
+      "type": "text"
+    },
+    "Korzysci": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.lista"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "informacje_o_firmies",
+  "info": {
+    "singularName": "informacje-o-firmie",
+    "pluralName": "informacje-o-firmies",
+    "displayName": "Informacje o firmie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Infolinia": {
+      "displayName": "Infolinia",
+      "type": "component",
+      "repeatable": true,
+      "component": "info.infolinia"
+    },
+    "ZastrzeganieKart": {
+      "type": "string"
+    },
+    "Siedziba": {
+      "type": "string"
+    },
+    "GodzinyOtwarcia": {
+      "type": "string"
+    },
+    "NIP": {
+      "type": "string"
+    },
+    "BICSWIFT": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_info_infolinias",
+  "info": {
+    "displayName": "Infolinia",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "Numer": {
+      "type": "string"
+    }
+  }
+}

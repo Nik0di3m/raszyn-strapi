@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_to_sie_oplaca_to_sie_oplacas",
+  "info": {
+    "displayName": "ToSieOplaca",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "Oplata": {
+      "type": "decimal"
+    },
+    "Tekst": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_card_info_cards",
+  "info": {
+    "displayName": "InfoCard",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Tekst": {
+      "type": "text"
+    },
+    "Ikona": {
+      "type": "enumeration",
+      "enum": [
+        "House",
+        "Phone",
+        "Card",
+        "Math",
+        "Tie",
+        "Weed",
+        "OnlineBank",
+        "AtmCard",
+        "HandWithMoney",
+        "HandWithPhone",
+        "Bank",
+        "Message",
+        "Pdf"
+      ]
+    }
+  }
+}

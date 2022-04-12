@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_list_listas",
+  "info": {
+    "displayName": "Lista",
+    "icon": "check-square"
+  },
+  "options": {},
+  "attributes": {
+    "Podpunkt": {
+      "type": "string"
+    }
+  }
+}
