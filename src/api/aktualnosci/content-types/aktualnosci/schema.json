@@ -31,12 +31,9 @@
       "repeatable": false,
       "component": "card.do-pobrania"
     },
-    "Link": {
-      "type": "string",
-      "regex": "^\\/[/.a-zA-Z0-9-]+$",
-      "unique": true,
-      "required": true,
-      "default": "/link-do-aktualnosci"
+    "Slug": {
+      "type": "uid",
+      "targetField": "Tytul"
     }
   }
 }
