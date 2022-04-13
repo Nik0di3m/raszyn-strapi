@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "konta_klienci_indywidualnis",
+  "collectionName": "konta_firmies",
   "info": {
-    "singularName": "konta-klienci-indywidualni",
-    "pluralName": "konta-klienci-indywidualnis",
-    "displayName": "Konta Klienci Indywidualni",
-    "description": ""
+    "singularName": "konta-firmy",
+    "pluralName": "konta-firmies",
+    "displayName": "Konta Firmy"
   },
   "options": {
     "draftAndPublish": true
@@ -35,12 +34,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "Korzysci": {
       "type": "component",
@@ -57,12 +51,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "KartyInformacyjne": {
       "displayName": "InfoCard",
