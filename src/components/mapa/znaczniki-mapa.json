@@ -2,22 +2,23 @@
   "collectionName": "components_mapa_znaczniki_mapas",
   "info": {
     "displayName": "ZnacznikiMapa",
-    "icon": "map-marker-alt"
+    "icon": "map-marker-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Longitude": {
-      "type": "float"
-    },
-    "Latitude": {
-      "type": "float"
-    },
     "Typ": {
       "type": "enumeration",
       "enum": [
         "Bankomat",
         "Placowka"
       ]
+    },
+    "Longitude": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "string"
     }
   }
 }
