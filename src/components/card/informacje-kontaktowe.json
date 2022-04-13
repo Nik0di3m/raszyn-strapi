@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_card_informacje_kontaktowes",
+  "info": {
+    "displayName": "InformacjeKontaktowe",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "DaneKontaktowe": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.lista"
+    },
+    "Ikona": {
+      "type": "enumeration",
+      "enum": [
+        "House",
+        "Phone",
+        "Card",
+        "Math",
+        "Tie",
+        "Weed",
+        "OnlineBank",
+        "AtmCard",
+        "HandWithMoney",
+        "HandWithPhone",
+        "Bank",
+        "Message",
+        "Pdf"
+      ]
+    }
+  }
+}
