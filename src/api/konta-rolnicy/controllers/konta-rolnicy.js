@@ -7,7 +7,7 @@
 const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController(
-  "api::api::konta-rolnicy.konta-rolnicy",
+  "api::konta-rolnicy.konta-rolnicy",
   ({ strapi }) => ({
     async findOne(ctx) {
       const { id: slug } = ctx.params;
@@ -15,7 +15,7 @@ module.exports = createCoreController(
       if (!query.filters) query.filters = {};
       query.filters.slug = { $eq: slug };
       const entity = await strapi
-        .service("api::api::konta-rolnicy.konta-rolnicy")
+        .service("api::konta-rolnicy.konta-rolnicy")
         .find(query);
       const { results } = await this.sanitizeOutput(entity, ctx);
 
