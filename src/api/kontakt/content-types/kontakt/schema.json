@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakts",
+  "info": {
+    "singularName": "kontakt",
+    "pluralName": "kontakts",
+    "displayName": "Kontakt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Placowki": {
+      "displayName": "Placowki",
+      "type": "component",
+      "repeatable": true,
+      "component": "card.placowki"
+    },
+    "Znacznik": {
+      "displayName": "ZnacznikiMapa",
+      "type": "component",
+      "repeatable": true,
+      "component": "mapa.znaczniki-mapa"
+    }
+  }
+}

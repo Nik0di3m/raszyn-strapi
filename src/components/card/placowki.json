@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_card_placowkis",
+  "info": {
+    "displayName": "Placowki",
+    "icon": "thumbtack"
+  },
+  "options": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Adres": {
+      "type": "string"
+    },
+    "Telefon": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "GodzinyOtwarcia": {
+      "type": "string"
+    }
+  }
+}
