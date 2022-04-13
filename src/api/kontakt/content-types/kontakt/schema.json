@@ -17,23 +17,17 @@
       "repeatable": false,
       "component": "seo.seo"
     },
-    "Placowki": {
-      "displayName": "Placowki",
-      "type": "component",
-      "repeatable": true,
-      "component": "card.placowki"
-    },
     "Znacznik": {
       "displayName": "ZnacznikiMapa",
       "type": "component",
       "repeatable": true,
       "component": "mapa.znaczniki-mapa"
     },
-    "Kontakt": {
-      "displayName": "InformacjeKontaktowe",
-      "type": "component",
-      "repeatable": true,
-      "component": "card.informacje-kontaktowe"
+    "KontaktInfo": {
+      "type": "json"
+    },
+    "Placowki": {
+      "type": "json"
     }
   }
 }
