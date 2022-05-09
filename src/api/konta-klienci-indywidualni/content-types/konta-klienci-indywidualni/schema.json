@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "konta_klienci_indywidualnis",
+  "collectionName": "konta_klienci_indywidualni",
   "info": {
     "singularName": "konta-klienci-indywidualni",
     "pluralName": "konta-klienci-indywidualnis",
@@ -35,12 +35,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "Korzysci": {
       "type": "component",
@@ -57,12 +52,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "KartyInformacyjne": {
       "displayName": "InfoCard",
