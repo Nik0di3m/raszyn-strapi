@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "karty_wspolnoty_mieszkaniowes",
+  "info": {
+    "singularName": "karty-wspolnoty-mieszkaniowe",
+    "pluralName": "karty-wspolnoty-mieszkaniowes",
+    "displayName": "Karty Wspólnoty Mieszkaniowe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Zajawka": {
+      "displayName": "Karta Zajawka",
+      "type": "component",
+      "repeatable": false,
+      "component": "card.karta-zajawka",
+      "required": true
+    },
+    "Tytul": {
+      "type": "string",
+      "required": true
+    },
+    "Tekst": {
+      "type": "richtext"
+    },
+    "ZdjecieGlowne": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "Korzysci": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.main-card"
+    },
+    "Korzysc": {
+      "displayName": "ToSieOplaca",
+      "type": "component",
+      "repeatable": true,
+      "component": "to-sie-oplaca.to-sie-oplaca"
+    },
+    "ZdjecieDrugie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "KartyInformacyjne": {
+      "displayName": "InfoCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "card.info-card"
+    },
+    "WiecejInformacji": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.do-pobrania"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Tytul",
+      "required": true
+    }
+  }
+}
