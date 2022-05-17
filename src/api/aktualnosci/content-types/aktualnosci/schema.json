@@ -33,7 +33,8 @@
     },
     "Slug": {
       "type": "uid",
-      "targetField": "Tytul"
+      "targetField": "Tytul",
+      "required": true
     }
   }
 }
